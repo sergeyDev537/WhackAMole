@@ -1,13 +1,16 @@
 package com.most4dev.domain.repositories
 
+import com.most4dev.domain.entities.GameResultEntity
+import com.most4dev.domain.entities.GameSettingsEntity
+
 interface UserRepository {
 
-    fun startGame()
+    fun startGame(): GameSettingsEntity
 
-    fun finishGame()
+    fun finishGame(score: Long): GameResultEntity
 
-    suspend fun setBestScore(long: Long)
+    fun setBestScore(long: Long)
 
-    suspend fun getBestScore(): Long
+    fun getBestScore(): Long
 
 }
