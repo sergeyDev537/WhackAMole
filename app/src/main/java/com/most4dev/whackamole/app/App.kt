@@ -1,6 +1,7 @@
-package com.most4dev.whackamole
+package com.most4dev.whackamole.app
 
 import android.app.Application
+import com.most4dev.whackamole.di.appModule
 import com.most4dev.whackamole.di.dataModule
 import com.most4dev.whackamole.di.domainModule
 import org.koin.android.ext.koin.androidContext
@@ -12,7 +13,7 @@ class App : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@App)
-            modules(listOf(dataModule, domainModule))
+            modules(listOf(appModule, dataModule, domainModule))
         }
     }
 }
