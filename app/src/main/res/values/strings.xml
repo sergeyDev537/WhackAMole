@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Whack a Mole</string>
+
+    <string name="bestscore">Bestscore:</string>
+    <string name="play">Play</string>
+    <string name="back">Back</string>
+    <string name="rules">The cabinet has a three-digit readout of the current player\'s score and, on later models, a "best score of the day" readout. The mallet is usually attached to the game by a rope to prevent it from being stolen.
+
+Current versions of Whac-A-Mole include three displays for Bonus Score, High Score, and the current game score. Home versions, distributed by Bob\'s Space Racers, have one display with the current score.
+
+If the player does not strike a mole within a certain time or with enough force, it eventually sinks back into its hole with no score. Although gameplay starts out slow enough for most people to hit all of the moles that rise, it gradually increases in speed, with each mole spending less time exposed and with more moles exposed at once. After a designated time limit, the game ends, regardless of the player\'s score. The final score is based on the number of moles the player struck.
+
+In addition to the single-player game described above, there is a multi-player game, most often found at amusement parks. In this version, there is a large bank of individual Whac-A-Mole games linked together, and the goal is to be the first player to reach a designated score (rather than hitting the most moles within a certain time). In most versions, striking a mole is worth ten points, and the winner is the first player to reach a score of 150 (15 moles). The winner receives a prize, typically a small stuffed animal, which can be traded up for a larger stuffed animal should the player win again.
+
+Game play options have become more adjustable, allowing the operator/owner to selectively alter the high score, hits points, rate of progressive speed, and game time.
+
+The game has been criticized for teaching children to be cruel towards animals, though it is still used for teaching auditory processing and attention.</string>
+    <string name="label_rules">Rules</string>
+    <string name="menu">Menu</string>
+    <string name="play_again">Play again</string>
+    <string name="score">Score</string>
 </resources>

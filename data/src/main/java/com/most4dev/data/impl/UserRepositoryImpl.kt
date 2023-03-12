@@ -45,7 +45,7 @@ class UserRepositoryImpl(
         const val SHARED_PREFERENCE_KEY = "KEY_SHARED_PREFERENCE"
         const val KEY_BEST_SCORE = "BEST SCORE KEY"
         const val DEFAULT_BEST_SCORE = 0L
-        const val DEFAULT_TIMER = 10000L
+        const val DEFAULT_TIMER = 30000L
 
     }
 
